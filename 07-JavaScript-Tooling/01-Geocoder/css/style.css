@@ -1,2 +1,28 @@
 /* TODO: Put your CSS code in here */
 
+.container{
+  width: 70%;
+  text-align: center;
+}
+
+.geo-form{
+  width: 400px;
+  height: 100px;
+  background-color: #ACE3AD;
+  margin: 50px auto;
+  padding: 50px;
+   text-align: center;
+}
+
+#search{
+   width: 200px;
+  height: 30px;
+}
+
+.btn{
+
+  background-color: #E95262;
+  padding: 10px;
+  border-color: #E95262;
+  border-radius: 4px;
+}
