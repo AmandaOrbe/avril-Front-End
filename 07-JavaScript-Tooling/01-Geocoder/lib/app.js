@@ -23,7 +23,7 @@ const logMap = (data) => {
 }
 
 
-const autocomplete = (e) => {
+const geocode = (e) => {
   event.preventDefault();
   const address = document.getElementById("search").value
   const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}`
@@ -45,4 +45,4 @@ const input = document.getElementById("geocode"); // that's an <input id="search
 
 
 
-input.addEventListener("click", autocomplete);
+input.addEventListener("click", geocode);
